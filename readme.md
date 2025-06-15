@@ -176,7 +176,7 @@ sudo systemctl restart nginx
 | **Web Server**       | Nginx (acts as a reverse proxy)                                              |
 | **App Runtime**      | Node.js server running on port `8080`                                        |
 | **Reverse Proxy**    | Nginx forwards HTTP traffic from port `80` to the Node.js app on port `8080` |
-| **Public IP**        | [http://<your-ec2-public-ip>](http://18.133.247.25/)   |
+| **Public IP**        | [http://ec2-public-ip](http://18.133.247.25/)   |
 | **Firewall Rules**   | Opened ports `22` (SSH), `80` (HTTP), and `8080` (for test access only)      |
 | **SSL**              | *(Skipped for now; can add Let's Encrypt via Certbot later)*                 |
 
