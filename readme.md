@@ -190,4 +190,4 @@ Server Access: SSH key-based authentication
 
 
 ## Screenshot
-![image](./Screenshot%202025-06-15%20164043.png)
+![image](./Screenshot.png)
